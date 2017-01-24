@@ -21,11 +21,12 @@
 	<head>
 		<title>Welcome User</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/style1.css" rel="stylesheet" />
 	</head>
-	<body style="background='https://upload.wikimedia.org/wikipedia/en/b/b2/CSB-Facade.JPG'">
+	<body>
 		<div class="container">
-			<h1 class="text-center">Student Profile Page</h1>
-			<div class="col-lg-6">
+			<h1 class="text-center"><font color="white">Student Profile Page</font></h1>
+			<div class="col-lg-offset-3 col-lg-6">
 				<div class="well">
 					<p>ID Number: <?php echo $student_no1 ?></p>
 					<p>Name: <?php echo $LastName .", " . $FirstName ?></p>
@@ -33,11 +34,6 @@
 					<p>Birthdate: <?php echo $Birthdate ?></p>
 					<p>Time: <?php echo date('c') ?></p>
 				</div>
-			<div class="col-lg-6">
-				<div class="well">
-
-				</div>
-			</div>
 		</div>
 	</body>
 </html>

@@ -19,10 +19,11 @@
 	<head>
 		<title>Student Registration</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div class="container">
-			<h1 class="text-center">Student Registration </h1>
+			<h1 class="text-center"><font color="white">Student Registration </font></h1>
 			<div class="col-lg-offset-3 col-lg-6">
 				<div class="well">
 					<form method="POST" action="welcome.php"
